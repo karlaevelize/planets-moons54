@@ -32,27 +32,34 @@ module.exports = [
     imgUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg", 
     diameter: 139822, 
     hasRings: true, 
-    moons: ["Io", "Europa", "Ganymede", "Callisto", "Amalthea", "Himalia", "Elara", "Pasiphae", "Sinope", "Lysithea", "Carme", "Anake", "Leda", "Thebe", "and more..."] 
+    moons: ["Io", "Europa", "Ganymede",  "and more..."] 
   },
   { 
     name: "Saturn", 
     imgUrl: "http://astronomy.com/~/media/8869F96544004BA298FE10708769601D.jpg", 
     diameter: 120500, 
     hasRings: true, 
-    moons: ["Mimas", "Enceladus", "Thethys", "Dione", "Rhea", "Titan", "Hyperion", "Iapetus", "Phoebe", "Janus", "Epimetheus", "Helene", "Telesto", "Calypso", "and more..."] 
+    moons: ["Mimas", "Enceladus", "Thethys", "and more..."] 
   },
   { 
     name: "Uranus", 
     imgUrl: "https://cdn.mos.cms.futurecdn.net/NVAnBwuGufg8cf2RXkZigd-480-80.jpg", 
     diameter: 51120, 
     hasRings: true, 
-    moons: ["Ariel", "Umbriel", "Titania", "Oberon", "Miranda", "Cordelia", "Ophelia", "Bianca", "Cressida", "Desdemona", "Juliet", "Portia", "Rosalind", "Belinda", "Puck", "Caliban", "Sycorax", "Prospero", "Setebos", "Stephano", "Trinculo", "Francisco", "Margaret", "Ferdinand", "Perdita", "Mab", "Cupid"] 
+    moons: ["Ariel", "Umbriel", "Titania", "Oberon", "and more", ] 
   },
   { 
     name: "Neptune", 
     imgUrl: "https://i.natgeofe.com/n/1b1a3bb9-19e4-4f27-938e-5b989955a82c/00000169-c04b-d507-af6b-c44f589a0000.jpg?w=636&h=358", 
     diameter: 49530, 
     hasRings: true, 
-    moons: ["Triton", "Nereid", "Naiad", "Thalassa", "Despina", "Galatea", "Larissa", "Proteus", "Halimede", "Psmathe", "Sao", "Laomedeia", "Neso", "Hipocamp"] 
+    moons: ["Triton", "Nereid", "Naiad", "Thalassa", "and more", ] 
+  },
+  { 
+    name: "Neptune", 
+    imgUrl: "https://i.natgeofe.com/n/1b1a3bb9-19e4-4f27-938e-5b989955a82c/00000169-c04b-d507-af6b-c44f589a0000.jpg?w=636&h=358", 
+    diameter: 49530, 
+    hasRings: true, 
+    moons: ["Triton", "Nereid", "Naiad", "Thalassa", "and more", ] 
   }
 ]

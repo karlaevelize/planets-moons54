@@ -5,13 +5,13 @@ export default function Planets(){
 
   console.log("data", data)
 
-  //only get plannets with rings
+  //only get planets with rings
   const onlyPlanetsWithRings = data.filter(planet => planet.hasRings)
   console.log("rings", onlyPlanetsWithRings)
 
   return(
     <div>
-      <h1>Planets List</h1>
+      <h1 style={{textAlign: "center"}}>Planets in the Solar System </h1>
       {/* {!data 
         ? "Loading" 
         : data.map(planet => <p>{planet.name}</p>)} */}
